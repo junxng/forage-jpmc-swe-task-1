@@ -1,0 +1,27 @@
+From 833840e941b81ba4960babf490efd7b3cb1633a8 Mon Sep 17 00:00:00 2001
+From: junxng <dungthcsnt2014@gmail.com>
+Date: Tue, 10 Sep 2024 17:04:03 +0700
+Subject: [PATCH] Final answer
+
+---
+ client3.py | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/client3.py b/client3.py
+index 4c2b515..bd1fe43 100644
+--- a/client3.py
++++ b/client3.py
+@@ -42,8 +42,8 @@ def getDataPoint(quote):
+ def getRatio(price_a, price_b):
+     """ Get ratio of price_a and price_b """
+     """ ------------- Update this function ------------- """
+-    if price_b == 0:
+-        raise ZeroDivisionError
++    if (price_b === 0):
++        return
+     return price_a / price_b
+ 
+ 
+-- 
+2.45.2.windows.1
+
